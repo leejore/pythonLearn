@@ -36,13 +36,19 @@ class room(object):
 
 	def __delitem__(self,key):
 		print("del is called")
+
+	
+
+	def testForDynamic(self):
+		print("in the class")
 			
 
 	
 	
 
 	
-
+def dynamicFuction(pp):
+	print("out the class")
 if(__name__=="__main__"):
 	room1=room("leejore")
 	room2=room("lucy")
@@ -52,4 +58,8 @@ if(__name__=="__main__"):
 	if(room2==room1):
 		print("they are equal")
 
+
+	room2.testForDynamic=dynamicFuction
+
+	room2.testForDynamic(room2)
 		
