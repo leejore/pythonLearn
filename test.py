@@ -19,7 +19,7 @@ class lee1(object):
 
 class loo(object):
 	th=lee1()	
-	fuck=90
+	good=90
 
 jiji=loo()
 jiji.th="kkkkkkkk"
